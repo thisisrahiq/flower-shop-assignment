@@ -1,7 +1,10 @@
 /* common shared related styles */
 
 body {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .btn-primary {
@@ -19,9 +22,9 @@ body {
 .section-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 100px;
 
 
 }
@@ -41,7 +44,7 @@ body {
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
+    padding: 50px 200px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -83,43 +86,95 @@ body {
 /* featured-flowers styles */
 
 .featured-container {
-    padding: 24px;
+    margin: 24px 200px 0px;
 }
 
 .featured-flowers {
     display: flex;
-    border-radius: 48px 110px;
-    background: rgba(5, 151, 160, 0.15);
-    margin: 48px 1100px;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
 
 }
+
+.flowers-img{
+    width: 200px;
+    padding: 80px 50px 0;
+}
+
+.flower-pic{
+    display: flex;
+    border-radius: 300px 300px 0px 0px;
+
+}
+
+.one{
+    background-color: #A7216226;
+}
+
+.two{
+    background-color: #0597A026;
+    align-items: center;
+}
+
+.three{
+    background-color: #477D1126;
+}
+
+.flower-name{
+    display: flex;
+    justify-content: space-around;
+}
+
+.flower-name > h3{
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+/* optional icons */
+
+.icon{
+    margin: 130px 200px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    background-color: #2727270D;
+}
+
+.icon-featured {
+    text-align: center;
+    padding: 75px 0px;
+}
+
+
 
 /* sales message part */
 
 .sales-section {
-    background: rgba(229, 84, 115, 0.10);
+    margin: 120px 0px;
+    background-color: #E554730D;
+    padding: 80px 200px;
 
 }
 
 .sales {
-    padding: 30px 30px 0px 150px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
-    margin: 48px 1100px;
 
 }
 
 .sales-content {
 
-    max-width: 500px;
+    text-align: center;
 }
 
 
 
 .sales .banner-pic {
 
-    width: 500px;
+    margin-left: 100px;
+    width: 240px;
 
 
 }
@@ -131,47 +186,85 @@ body {
 }
 
 .sales-description {
-    color: rgba(39, 39, 39, 0.6);
-    font-size: 18px;
+    padding: 10px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-style: normal;
     font-weight: 400;
-    margin-top: 0;
+    line-height: 30px;
 
 
 }
 
 /* instagram display */
 
+.instagram{
+    margin: 0px 200px;
+}
+
+
+
+
 .insta-flowers {
     display: flex;
-    gap: 24px;
-    margin: 48px 1100px;
+    justify-content: space-between;
+    gap: 20;
+}
+
+.insta-pic{
+    width: 225px;
 }
 
 /* latest deal */
 
-.latest-deal {
+.deal-container {
+    margin: 120px 200px;
     background-image: url('../images/Rectangle\ 9.png');
-    align-items: center;
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 70px 0px;
 
 
+}
 
+.deal-title{
+    font-size: 33px;
+    font-weight: 800;
 }
 
 .email {
 
-    text-align: center;
+    border-radius: 8px;
+    background: #FFF;
+    width: 450px;
+    height: 45px;
+    border: none;
+    padding-left: 20px;
+} 
 
+.submit{
+    margin: 5px;
+    padding: 11px 25px;
+    border-radius: 8px;
+    border: none;
+    background: #E55473;
+    font-weight: 700;
+    color: #FFF;
+    cursor: pointer;
 }
+
 
 /* footer start */
 
-.footer-contain {
+footer {
     background-color: #111010;
-    width: 1922px;
-    height: 449px;
-    margin: 40px 900px;
+    text-align: center;
+    padding: 120px 0px;
+}
+
+.footer-title {
+    color: #FFFFFFE5;
     
 
 }
@@ -180,18 +273,15 @@ body {
     color: rgba(229, 84, 115, 1);
 }
 
-.footer-title {
-    color: rgba(255, 255, 255, 1);
-    text-align: center;
-    font-size: 48px;
-    padding: 40px;
-}
+
 
 .footer-description {
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    width: 40%;
+    margin: auto;
+    padding: 8px 0px;
+    color: #FFFFFFE5;
+    font-size: 14px;
+    font-style: normal;
 
 
 
