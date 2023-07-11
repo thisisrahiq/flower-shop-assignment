@@ -16,6 +16,24 @@ body {
 
 }
 
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
 /* header related styles */
 
 .header {
@@ -27,36 +45,162 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
-.banner-content{
+.banner-content {
 
     max-width: 500px;
 }
 
 
 
-.banner .banner-pic{
+.banner .banner-pic {
 
     width: 500px;
 
+
 }
 
-.banner-greetings{
+.banner-greetings {
     font-size: 80px;
     color: #272727;
     margin-bottom: 32px;
 }
 
-.banner-description{
+.banner-description {
     color: rgba(39, 39, 39, 0.6);
     font-size: 18px;
     font-weight: 400;
     margin-top: 0;
-   
-    
+
+
+}
+
+/* main section styles */
+
+
+/* featured-flowers styles */
+
+.featured-container {
+    padding: 24px;
+}
+
+.featured-flowers {
+    display: flex;
+    border-radius: 48px 110px;
+    background: rgba(5, 151, 160, 0.15);
+    margin: 48px 1100px;
+
+}
+
+/* sales message part */
+
+.sales-section {
+    background: rgba(229, 84, 115, 0.10);
+
+}
+
+.sales {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 48px 1100px;
+
+}
+
+.sales-content {
+
+    max-width: 500px;
 }
 
 
 
+.sales .banner-pic {
 
+    width: 500px;
+
+
+}
+
+.sales-greetings {
+    font-size: 40px;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+.sales-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0;
+
+
+}
+
+/* instagram display */
+
+.insta-flowers {
+    display: flex;
+    gap: 24px;
+    margin: 48px 1100px;
+}
+
+/* latest deal */
+
+.latest-deal {
+    background-image: url('../images/Rectangle\ 9.png');
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+
+}
+
+.email {
+
+    text-align: center;
+
+}
+
+/* footer start */
+
+.footer-contain {
+    background-color: #111010;
+    width: 1922px;
+    height: 449px;
+    margin: 40px 900px;
+    
+
+}
+
+.footer-1 {
+    color: rgba(229, 84, 115, 1);
+}
+
+.footer-title {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    font-size: 48px;
+    padding: 40px;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+
+
+}
+
+.small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    
+
+}
